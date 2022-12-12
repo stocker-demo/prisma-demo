@@ -1,0 +1,9 @@
+syntax ="proto3";
+
+message StockPriceRequest {
+    string symbol = 1;
+}
+
+message StockPriceResponse {
+    float price = 1;
+}
